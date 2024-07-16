@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: cucumberrunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 69.624 s <<< FAILURE! - in cucumberrunner.TestRunner
+cucumberrunner.TestRunner.runScenario["verify navigation working", "Navigation Bar"](8)  Time elapsed: 9.893 s  <<< FAILURE!
+org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: stale element not found in the current frame
+  (Session info: chrome=126.0.6478.126)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fb6145f2926c2d96194d396381a4f45, getElementText {id=f.F6CDDF26FCCC33432D3CDA2CCD8E2FE6.d.1C088D49F2E03B284494824A29ABF56D.e.29}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.126, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64394}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64394/devtoo..., se:cdpVersion: 126.0.6478.126, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1fb6145f2926c2d96194d396381a4f45)] -> xpath: //nav[@class='bm-item-list']/a]
+Session ID: 1fb6145f2926c2d96194d396381a4f45
+
